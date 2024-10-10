@@ -1,0 +1,45 @@
+body {
+    font-size: 20px;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle {
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle .visual{
+    width: 400px;
+    height: 400px;
+    background-image: url(./images/home_bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.middle .description h4{
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
